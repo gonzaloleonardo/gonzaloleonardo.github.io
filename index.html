@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Iportando iconos a traves de CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="funciones.js" defer></script>
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="top-bar">
+                <div class="theme-swap" id="theme-swap">
+                    <span>Cambiar tema</span>
+                </div>
+                <ul>
+                    <li><a href="#ed">Educacion</a></li>
+                    <li><a href="#xp">Experiencia</a></li>
+                    <li><a href="#form">Formulario</a></li>
+                </ul>
+            </nav>
+        </header>
+                    <section class="about">
+
+                        <div class="presentation">
+
+                                <img id="pfp" src="assets/pfp.png" alt="Foto de perfil">
+                            <h1>Kurier DeLarge</h1>
+                            <h2>Desarrollador Web</h2>
+
+                            <div class="info">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus expedita fugit debitis magnam repellat officiis eaque, libero, ipsam accusamus temporibus, alias vitae ratione explicabo eum autem iure minus aliquam aspernatur.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="habilities">
+                            <h3>Especialidades</h3>
+                            <ul>
+                            <li><i class="fa-brands fa-html5"></i><br>HTML</li>
+                            <li><i class="fa-brands fa-css3-alt"></i><br>CSS</li>
+                            <li><i class="fa-brands fa-square-js"></i><br>JavaScript</li>
+                            <li><i class="fa-brands fa-bootstrap"></i><br>Bootstrap</li>
+                            <li><i class="fa-brands fa-react"></i><br>React.JS</li>
+                            <li><i class="fa-brands fa-node-js"></i><br>Node.JS</li>
+                            <li><i class="fa-brands fa-java"></i><br>Java</li>
+                            <li><i class="fa-solid fa-database"></i><br>MongoDB</li>
+                            <li><i class="fa-brands fa-git"></i><br>Git</li>
+                            </ul>
+                        </div>
+
+                    </section>
+            
+                    <section class="ed-xp">
+
+                        <div class="education" id="ed">
+                            <h3>Educación</h3>
+
+                            <div class="schools-container">   
+                                <div class="school">
+                                    <img src="assets/google-logo.jpg" alt="Logo de Google">
+                                    <h4>Google Academy</h4>
+                                    <h5>Desarrolo FrontEnd</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tenetur quod facere labore earum amet, veniam nobis sapiente dignissimos ipsa mollitia harum, neque porro illo suscipit cumque veritatis aspernatur sequi.</p>
+                                </div>
+                                <div class="school">
+                                    <img src="assets/MIT-logo.jpg" alt="Logo del MIT">
+                                    <h4>Massachusetts Institute of Technoligy</h4>
+                                    <h5>Desarrollo BackEnd</h5>
+                                    <p>Rerum suscipit consectetur, doloribus architecto in rem voluptates omnis sequi modi dignissimos, alias molestias sint! Dolor quasi odit eum magnam aliquam, aperiam minima animi voluptatum nisi ad eaque cumque praesentium.</p>
+                                </div>
+                                <div class="school">
+                                    <img src="assets/Microsoft-logo.jpg" alt="Logo de Microsoft">
+                                    <h4>Microsoft Academy</h4>
+                                    <h5>Cloud Administrator</h5>
+                                    <p>Dolorem corporis laborum, voluptas dolorum atque maiores, temporibus nam voluptate distinctio, quae omnis sed fugit quasi velit consectetur eaque repellendus obcaecati incidunt officia ea. Consectetur ipsum aliquam iste! Facilis, doloremque!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="projects" id="xp">
+                            <h3>Proyectos</h3>
+                            <div class="web-container">
+                                <div class="web">
+                                    <h4>www.facebook.com</h4>
+                                    <h5>Diseño de la sección de Marketplace</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda amet dolore earum illo. Accusamus reprehenderit, ad dignissimos adipisci exercitationem dolore veniam, quia quod autem perferendis incidunt nostrum unde vitae?</p>
+                                </div>
+                                <div class="web">
+                                    <h4>www.mercadolibre.com</h4>
+                                    <h5>Desarrollo BackEnd del sistema de pagos</h5>
+                                    <p>Rerum non rem beatae sequi, iure error dolores! Odio quidem sapiente molestiae corporis consectetur, reiciendis, fugiat quasi ad, nesciunt explicabo iusto non! Laboriosam odit consequuntur nemo corporis quas doloribus iusto.</p>
+                                </div>
+                                <div class="web">
+                                    <h4>Multiples StartUps</h4>
+                                    <h5>Diseño y deploy de Landing Pages</h5>
+                                    <p>Accusantium cupiditate ipsam ex cumque nemo blanditiis amet inventore cum, natus tempora est totam earum iste saepe modi, voluptatibus commodi. Eum excepturi quisquam expedita, adipisci ullam aliquam optio accusantium sint.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+            
+                    <section class="contact-form" id="form">
+                        <div class="form-title-container">
+                            <h3>Formulario de Contacto</h3>
+                            <p>¿Necesita una página Web? Deje sus datos y yo me pondre en contacto para realizar su proyecto.</p>
+                        </div>
+                        <form>
+                        
+                                <label for="name">Ingrese su nómbre:<br><input id="name" name="name" type="text" required></label>
+                                <label for="last-name">Ingrese su apellido:<br><input type="text" id="last-name" name="last-name" required></label>
+                                <label for="email">Ingrese su correo:<br><input type="email" name="email" id="email" required></label>
+                                <p>¿para quién es la página?</p>
+                                <label class="inline" for="web-personal"><input type="radio" name="web-type" id="web-personal" required> Para mí</label>
+                                <label class="inline" for="web-comercial"><input type="radio" name="web-type" id="web-comercial" required> Para mi negocio</label>
+                            
+
+                                <label for="web-template">Si tiene ya un diseño para su web puede subirlo aquí:<br>
+                                <input type="file" id="web-template" name="file">
+                                </label>
+                                <input type="submit" value="Enviar">
+                            
+                        </form>
+                    </section>
+
+        <footer>
+                <div class="contact-info">
+                    <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-github"><span> github.com/kurierdelarge</span></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"><span> twitter.com/kurierdelarge</span></i></a>
+                    <i class="fa-solid fa-envelope"><a><span> kurierdelarge@protonmail.com</span></i>
+                    <i class="fa-solid fa-phone"><span> +54 99-4512-5596</span></i>
+                </div>
+        </footer>
+
+    </main>
+</body>
+</html>
